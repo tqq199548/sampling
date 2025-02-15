@@ -10,10 +10,18 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
-
-```
+![alt text](image-3.png)
+![alt text](image-1.png)
+# Author: Koko 
 Please write your explanation here...
+Stage 1: sampling frame: 1000 individuals who attend different events, 200 on wedding, 800 on brunch. This is stratified sampling. 
+Stage 2: simple random sampling. Each inviduvation has fixed posibility of being infected. 10% of indivuals are randomly selected to be infected.
+Stage 3: random contact tracing: 20% of infected people are randomly traced.  
+Stage 4: 2nd tracing of infected individuals, cluster sampling.  This creates a demendency structure which might causing sampling bais. 
+Output of pythone file: The output histograms showed different distributions in each execution, indicating non-reproducibility.
+1000 to 100:  This suggests that fewer repetitions lead to more fluctuations, reducing the reliability of the estimates.
+Adding: np.random.seed(30) to ensure everytime script runs, the same random numbers generated. This wont change the logic of simulationbut making sure the same results are consistent. 
+
 
 ```
 
