@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+np.random.seed(30)
+def simulate_event(m): np.random.seed (m)
 # Note: Suppressing FutureWarnings to maintain a clean output. This is specifically to ignore warnings about
 # deprecated features in the libraries we're using (e.g., 'use_inf_as_na' option in Pandas, used by Seaborn),
 # which we currently have no direct control over. This action is taken to ensure that our output remains
