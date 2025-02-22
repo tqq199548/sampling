@@ -40,30 +40,51 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `HR at Tech Company #1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+The purpose of this survey is to understand the reasons behind the high turnover rate among entry and lower loevel employees. This will help HR indentify key reasons affecting employee satisfaction and retention, and further action on improving work environement. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
 ```
+Target population: all current and former entry and lower level employee within the last 12 months.
+Sampling frame: internal exmployee database
+Sampling units: individual exmployees (current and former)
+observational units: responses from employees
+
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your current employement status at the company? 
+A. Currently employed
+B. Resigned within last 12 months
+2. What was your primary reason for leaving (or consider) the company? 
+A. No team support
+B. Lack of career growth 
+C. Work Life Balance
+D. Job related 
+E other ___ 
+3. Do you feel that management actively listens to employee concerns? 
+A. Yes, very
+B. Sometimes, soso
+C. Rarely 
+D. Never
+4. What changes would have motivate you to continue work at the company? (multiple choices )
+A. Higher Salary
+B. More job opportunities 
+C. More Work life Balance 
+D. More work from home days 
+E. Improving workplace culture
+F: Other__
+5. From 0-10, how likely are you recommend this company as a good place to work and willing to share to your friends and relative? 
+(0=no, i dont want to recommnd, 10= 100% recommend)
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +92,18 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type: stratified sampling 
+Sample size: around 20,000 respondents 
+Target population: Candians aged 10 and older living in the provinces 
+Sampling frame: Statisctics Canada's dwelling-based sampling frame
+Survey mode(s): CATI and online survey
+Timeline: Sep 2018 to Jan 2019
+Response rate: 45% to 50%
+Weights:adjust for non response
+Processing: data checked with bias and inconsistencies and also weighted 
+Sources of error: nonresponse bias, coverage error and smpaling 
+
+
 ```
 
 ## Rubric
@@ -93,9 +125,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-2`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
